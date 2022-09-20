@@ -19,9 +19,7 @@ describe('a página de configuração', () => {
         <RecoilRoot>
             <Configuracao />
         </RecoilRoot>)
-
         expect(container).toMatchSnapshot()
-
         
     })
-})
+}) 
